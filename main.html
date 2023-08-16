@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale-1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+    <style>
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+      
+      @layer base {
+        @layer base {
+          h1, h2, h3 {
+    font-family: Poppins, sans-serif;
+        }
+        p { font-family: Raleway, sans-serif;}
+      }
+    }
+    </style>
+    <title>CV Febian</title>
+
+  </head>
+  <body class="bg-auto bg-slate-100 min-[640px]:mx-[100px]">
+      <!--Header-->
+      <header 
+        class="mt-[18px] w-auto h-[24px] py-[44px]  items-center inline-flex"
+      >
+        <div>
+          <span
+            style="
+              color: #ec1b09;
+              font-size: 24px;
+              font-family: Pacifico;
+              font-weight: 400;
+              word-wrap: break-word;
+            "
+            >My</span
+          ><span
+            style="
+              color: #ff9c1a;
+              font-size: 24px;
+              font-family: Pacifico;
+              font-weight: 400;
+              word-wrap: break-word;
+            "
+            >Portfolio</span
+          >
+        </div>
+      </header>
+
+    <!--Profile card-->
+    <div class="flex flex-wrap lg:flex-nowrap">
+    <div class=" w-auto mx-auto min-w-fit mb-[50px] bg-white rounded-2xl overflow-hidden flex-col lg:w-[400px]  ">
+      <div class="my-[52px]">
+        <img class="mx-auto my-auto rounded-2xl w-[200px]" src="/img/foto.png" alt="Foto Febian ">
+        <p class="mt-[14px] text-stone-950 text-3xl font-bold flex justify-center">Febian Ageng Resta</p>
+        <p class="mt-[4px] text-neutral-950 text-opacity-50 text-base font-medium flex justify-center leading-10">FullStack Developer</p>
+      
+      <!--Social Media-->
+      <div class="mx-[46px] flex flex-wrap justify-center gap-2.5 ">
+        <a href="https://www.facebook.com/febian.ageng/">
+          <img class="w-16 h-14 px-6 py-5 bg-slate-100 hover:bg-slate-300 rounded-xl justify-center items-center gap-[8.27px] inline-flex" src="/img/fb.svg" alt="Facebook"/>
+        </a>
+        <a href="https://www.linkedin.com/in/restaageng/">
+          <img class="w-16 h-14 px-6 py-5 bg-slate-100 hover:bg-slate-300 rounded-xl justify-center items-center gap-[8.27px] inline-flex" src="/img/linkedin.svg" alt="linkedin"/>
+        </a>
+        <a href="https://twitter.com/restaageng">
+          <img class="w-16 h-14 px-6 py-5 bg-slate-100 hover:bg-slate-300 rounded-xl justify-center items-center gap-[8.27px] inline-flex" src="/img/twitter.svg" alt="twitter"/>
+        </a>
+        <a href="https://github.com/FebianAgengResta">
+          <img class="w-16 h-14 px-6 py-5 bg-slate-100 hover:bg-slate-300 rounded-xl justify-center items-center gap-[8.27px] inline-flex" src="/img/github.svg" alt="github"/>
+        </a>
+      </div>
+
+<!--contact card-->
+<div class="flex justify-center">
+  <div
+    class="w-80 h-80 bg-slate-100 rounded-2xl mt-[22.34px]  flex-row justify-center mx-[25px]"
+  >
+    <div class="w-64 h-16 relative ml-9 mt-8 border-b">
+      <div class="w-40 h-11 flex justify-start items-center gap-2.5">
+        <img src="/img/phone.svg" alt="Phone" class="w-6 h-6" />
+        <div class="flex-row text-left">
+          <p class="text-stone-950 text-opacity-50 text-sm font-semibold">Phone</p>
+            <p class="text-sm font-semibold leading-tight">+628976126006</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-64 h-16 relative ml-9 my-1.5 border-b">
+      <div class="w-40 h-11 flex justify-start items-center gap-2.5">
+        <img src="/img/email.svg" alt="Email" class="w-6 h-6" />
+        <div class="flex-row text-left">
+          <p class="text-stone-950 text-opacity-50 text-sm font-semibold">Email</p>
+            <p class="text-sm font-semibold leading-tight">restaageng@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-64 h-16 relative ml-9 my-1.5 border-b">
+      <div class="w-40 h-11 flex justify-start gap-2.5 items-center">
+        <img
+          src="/img/location.svg"
+          alt="Location"
+          class="w-6 h-6"
+        />
+        <div class="flex-row text-left">
+          <p class="text-stone-950 text-opacity-50 text-sm font-semibold">Location</p>
+            <p class="text-sm font-semibold leading-tight">Semarang, Indonesia</p>
+        </div>
+      </div>
+    </div>
+    <div class="mt-4 flex justify-center">
+      <a
+        href="https://drive.google.com/drive/folders/1FGB2Kc6FA1YG9tI91Yz1L_ZT6PDnJ1FL"
+        class=" inline-flex justify-center gap-[10px]  bg-[#FF9C1A] hover:bg-[#c77a15] rounded-full"
+      >
+        <img class="ml-[20px]" src="/img/download.svg" alt="Download"/>
+        <p class=" text-slate-100 text-xs font-semibold leading-tight mr-[20px] py-[10px]">Download Resume</p>
+      </a>
+    </div>
+  </div>
+</div>
+    </div>
+    </div>
+
+    <!--Nav Menu-->
+    <div>
+      <div class="flex place-content-center mx-[15px] mt-[42px] mb-[10px]  bg-slate-100 rounded-2xl drop-shadow-lg	 lg:mx-0 lg:mr-[62px] lg:ml-[175px]">
+        <div class="flex-row justify-center">
+          <ol class="flex justify-center gap-[40px] py-2">
+            <a
+              href="/main.html"
+              class="w-[80px] h-[80px]  bg-slate-200 hover:bg-[#FF9C1A] rounded-2xl flex-col flex justify-center items-center"
+            >
+            <img
+                src="/img/Home2.svg "
+                alt="Home"
+                class="w-[24px] h-[24px]"
+              />
+              <li class="">Home</li>
+            </a>
+            <a
+              href="/resume.html"
+              class="w-20 h-20 bg-slate-200 hover:bg-[#FF9C1A]  rounded-2xl flex-col flex justify-center items-center"
+            >
+              <img
+                src="/img/resume.svg "
+                alt="Resume"
+                class="w-[24px] h-[24px]"
+              />
+              <li class="">Resume</li>
+            </a>
+            <a
+              href="contact.html"
+              class="w-20 h-20 bg-slate-200 hover:bg-[#FF9C1A]  rounded-2xl flex-col flex justify-center items-center"
+            >
+              <img
+                src="/img/contact.svg"
+                alt="Contact"
+                class="w-[24px] h-[24px]"
+              />
+              <li class="">Contact</li>
+            </a>
+          </ol>
+        </div>
+      </div>
+  
+  
+      <div class=" max-w-fit ml-[10px] mb-[50px] bg-white rounded-2xl overflow-hidden">
+      <!--About me-->
+        <div class="flex mx-[73.5px] mt-[18px] gap-[32px]"> 
+          <h1 class="flex-none text-stone-950 text-4xl font-medium leading-10 tracking-wide">ABOUT ME</h1>
+          <img class=" w-auto max-w-[252px] justify-center items-center inline-flex" src="/img/Line1.svg" alt="Line1"/>
+        </div>
+        <div class="ml-[71px] mr-[65px]">
+          <p class=" text-black text-base font-medium leading-loose">Hello there! I'm thrilled to welcome you to my portfolio. I am a passionate and versatile full-stack developer with a keen interest in exploring the latest cutting-edge technologies. My journey in the world of web development has been nothing short of exhilarating, and I constantly strive to enhance my skills and embrace emerging trends in the industry.</p>
+        </div>
+        <h2 class="mx-[73.5px] mt-[18px] text-stone-950 text-4xl font-medium leading-10 tracking-wide">What I do!</h2>
+        <div class="flex flex-wrap gap-7 mb-5 justify-center ">
+          <div class="flex gap-7">
+            <div class="bg-orange-100 rounded-xl p-2.5">
+              <div class="flex justify-center">
+                <img src="../img/code.svg" alt="Code" class="mr-2" />
+                <h3 class="font-bold text-2xl">Web Development</h3>
+              </div>
+              <p>
+                As a developer, I find myself most captivated by the power and
+                flexibility of NEXT.js. I'm always eager to dive into new
+                projects that leverage NEXT.js and discover innovative ways to
+                create fast, scalable, and user-friendly applications.
+              </p>
+            </div>
+
+            <div class="bg-slate-100 rounded-xl p-2.5">
+              <div class="flex justify-center">
+                <img src="/img/App.svg" alt="App" class="mr-2" />
+                <h1 class="font-bold text-2xl">App Development</h1>
+              </div>
+              <p>
+                With a focus on user-centric design and cutting-edge
+                technologies, I thrive on building intuitive and efficient
+                apps that make a positive impact on people's lives. Let's turn
+                ideas into reality and shape the future together.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-7 justify-center">
+          <div class="flex gap-7">
+            <div class="py-3.5 px-6 bg-orange-100 rounded-xl p-2.5">
+              <div class="flex justify-center">
+                <img src="/img/ux.svg" alt="UI/UX" class="mr-2" />
+                <h1 class="font-bold text-2xl mx-2 whitespace-nowrap">
+                  UI/UX Designing
+                </h1>
+              </div>
+              <p class="">
+                Crafting visually appealing and intuitive user interfaces that
+                offer a delightful user experience is something I'm truly
+                fanatic about.
+              </p>
+            </div>
+
+            <div class="bg-slate-100 rounded-xl p-2.5">
+              <div class="flex justify-start">
+                <img
+                  src="/img/Mentor.svg"
+                  alt="Mentorship"
+                  class="mr-2"
+                />
+                <h1 class="font-bold text-2xl">Mentorship</h1>
+              </div>
+              <p>
+                I have also found great joy in sharing my knowledge with
+                others. Being a technical mentor allows me to give back to the
+                community that has supported me throughout my career.
+              </p>
+            </div>
+          </div>
+        </div>
+      
+      
+      
+    </div>
+    </div>
+
+  </div>
+</div>
+    
+
+
+
+
+  </body>
+</html>
